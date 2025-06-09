@@ -1,13 +1,13 @@
 {
-    "id": "9ba5877a-fc82-41dd-b713-81ca34d10337",
-    "scriptName": "flash补充正则",
-    "findRegex": "/^[\\s\\S]*</guifan>/",
+    "id": "b1b79d4b-8583-4fbf-8754-a1ac80d439e7",
+    "scriptName": "kingfall补充正则",
+    "findRegex": "/^[\\s\\S]*?(?=<content>)/",
     "replaceString": "",
     "trimStrings": [],
     "placement": [
         2
     ],
-    "disabled": true,
+    "disabled": false,
     "markdownOnly": true,
     "promptOnly": true,
     "runOnEdit": true,
