@@ -1,0 +1,17 @@
+{
+    "id": "6b572dd6-3a08-4ef8-b099-ca70cbe74505",
+    "scriptName": "去【√】",
+    "findRegex": "/√/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": false,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
