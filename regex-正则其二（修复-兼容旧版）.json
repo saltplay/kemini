@@ -1,0 +1,17 @@
+{
+    "id": "c90ad37c-80c7-47b8-ba7c-f0497eeb7e7b",
+    "scriptName": "正则其二（修复-兼容旧版）",
+    "findRegex": "/(<Disclaimer>(((?!<Disclaimer>).)*?)</Disclaimer>)|<done>|(<!--[\\s\\S]*?-->(\\s*))|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gsi",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
