@@ -1,0 +1,18 @@
+{
+    "id": "5e5cec1f-9473-4944-b363-7271e139885e",
+    "scriptName": "aether opus底部正则",
+    "findRegex": "/(.*)/s",
+    "replaceString": "</additional_settings>$1<additional_settings>",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

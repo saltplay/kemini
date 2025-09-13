@@ -1,13 +1,13 @@
 {
-    "id": "52399bc9-2594-4e46-9cbf-3cf10a111815",
-    "scriptName": "摘要其一",
-    "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+    "id": "fb773a31-eb58-4fa2-869d-d8e78ca262a1",
+    "scriptName": "aether摘要二",
+    "findRegex": "/(?<!<details>\\s*)<summary>([\\s\\S]*?)</summary>/gi",
     "replaceString": "",
     "trimStrings": [],
     "placement": [
         2
     ],
-    "disabled": true,
+    "disabled": false,
     "markdownOnly": false,
     "promptOnly": true,
     "runOnEdit": true,

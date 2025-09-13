@@ -1,0 +1,17 @@
+{
+    "id": "c6ee5f24-c7c5-4e51-bab0-fa69847c3477",
+    "scriptName": "aether摘要三",
+    "findRegex": "/[\\s\\S]*?(?<!<details>\\s*)<summary>([\\s\\S]*?)<\\/summary>[\\s\\S]*/gi",
+    "replaceString": "<summary>\n$1\n</summary>",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 11,
+    "maxDepth": null
+}

@@ -1,14 +1,14 @@
 {
-    "id": "ff6dc1cb-31d3-4e95-bf91-4df12507b324",
-    "scriptName": "正则其一",
+    "id": "51f00d04-d882-4ba7-864b-746619ec3f93",
+    "scriptName": "aether opus正则一",
     "findRegex": "^([\\s\\S]*)$",
-    "replaceString": "<reader_input>\n$1\n</reader_input>",
+    "replaceString": "<interactive_input>\n$1\n</interactive_input>",
     "trimStrings": [],
     "placement": [
         1
     ],
     "disabled": false,
-    "markdownOnly": true,
+    "markdownOnly": false,
     "promptOnly": true,
     "runOnEdit": true,
     "substituteRegex": 0,
